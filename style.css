@@ -1,0 +1,294 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: lato;
+}
+
+body {
+
+}
+
+.top {
+width: 100%;
+height: 800px;
+background-image: url('./topbg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.menu {
+width: 100%;
+padding-top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.menu li {
+list-style: none;
+}
+
+.menu a {
+margin: 0 50px;
+font-size: 13px;
+text-decoration: none;
+color: #666666;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+section {
+border-top: 1px solid black;
+}
+
+.textsec {
+width: 100%;
+padding: 115px 275px 140px;
+background-color: #f7f7f7;
+text-align: center;
+}
+
+.textsec h2 {
+margin: 30px 0;
+font-size: 18px;
+color: #333333;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.textsec p {
+font-size: 18px;
+color: #999999;
+line-height: 1.7;
+}
+
+.bike {
+width: 100%;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.bikeimagebig {
+min-width: 66.6875%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-size: cover;
+}
+
+.bike1imagebig {
+background: url(./bike1imagebig.jpg) no-repeat center;
+}
+
+.bike2imagebig {
+background: url(./bike2imagebig.jpg) no-repeat center;
+order: 2;
+}
+
+.bike3imagebig1 {
+min-width: 33.34375%;
+background: url(./bike3imagebig1.jpg) no-repeat center;
+}
+
+.bike3imagebig2 {
+min-width: 33.34375%;
+background: url(./bike3imagebig2.jpg) no-repeat center;
+}
+
+.biketextnimage {
+height: 100%;
+}
+
+.bike2textnimage {
+order: 1;
+}
+
+.biketext {
+position: relative;
+height: 400px;
+padding: 65px 65px 50px;
+text-align: center;
+}
+
+.biketext::after {
+content: "";
+position: absolute;
+bottom: -15px;
+left: 50%;
+transform: translate(-50%, -50%) rotate(45deg);
+height: 15px;
+width: 15px;
+background-color: #ffffff;
+}
+
+.biketext h3 {
+margin: 30px 0 20px;
+font-size: 18px;
+font-weight: bold;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #333333;
+}
+
+.biketext p {
+font-size: 16px;
+text-align: justify;
+line-height: 1.7;
+color: #999999;
+}
+
+.shortline {
+height: 1px;
+width: 50px;
+margin: 40px auto 0;
+background-color: #cccccc;
+}
+
+.bikeimagesmall {
+height: 200px;
+background-size: cover;
+}
+
+.bike1imagesmall {
+background: url(./bike1imagesmall.jpg) no-repeat center;
+}
+
+.bike2imagesmall {
+background: url(./bike2imagesmall.jpg) no-repeat center;
+}
+
+.bike3imagesmall {
+background: url(./bike3imagesmall.jpg) no-repeat center;
+}
+
+.twitter h2 span {
+color: #999999;
+font-weight: lighter;
+}
+
+.twitter p {
+font-size: 24px;
+font-style: italic;
+}
+
+.shop {
+width: 100%;
+height: 535px;
+display: flex;
+}
+
+.first, .fourth {
+display: inline-block;
+width: 533px;
+}
+
+.second, .third {
+display: inline-block;
+width: 267px;
+}
+
+.upper, .lower {
+height: 267.5px;
+}
+
+.shopsubdiv {
+width: 266.5px;
+}
+
+.upperdiv, .lowerdiv {
+display: flex;
+}
+
+.firstimg {
+background-image: url(./shopimg1.jpg);
+}
+
+.secondimg {
+background-image: url(./shopimg2.jpg);
+}
+
+.thirdimg {
+background-image: url(./shopimg3.jpg);
+}
+
+.fourthimg {
+background-image: url(./shopimg4.jpg);
+}
+
+.fifthimg {
+background-image: url(./shopimg5.jpg);
+}
+
+.sixthimg {
+background-image: url(./shopimg6.jpg);
+}
+
+.seventhimg {
+background-image: url(./shopimg7.jpg);
+}
+
+.eighthimg {
+background-image: url(./shopimg8.jpg);
+}
+
+.mailing {
+width: 100%;
+padding: 100px 0;
+text-align: center;
+}
+
+.mailing p {
+margin-top: 35px;
+font-size: 24px;
+font-style: italic;
+color: #999999;
+}
+
+footer {
+width: 100%;
+padding: 100px 0;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: #f7f7f7;
+}
+
+footer div {
+width: 255px;
+text-align: center;
+}
+
+.footertext {
+text-align: left;
+}
+
+footer p {
+font-size: 13.9;
+color: #999999;
+font-style: italic;
+}
+
+footer .fs16b {
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+}
+
+.footericon a {
+margin: 0 5px;
+}
+
+.footerlogo {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footerlogo p {
+margin-right: 15px;
+}
